@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
-function Square(){
+function Square(props){
 
 
     return (
-      <div></div>
+      <button className="square" onClick={props.onClick}>
+        {props.value}
+      </button>
     );
 
 
 }
 
-export default ;
+export default Square;
