@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
+import Square from './Square'
 
-function Board(props) {
+class Board extends Component {
 
+    renderSquare(idx){
+      return <Square value = {this.props.squares[i]}
+        onClick={()=>{this.props.onCLick(i)}}
+      />
 
+    }
+  render() {
     return (
-      <div></div>
+      <div>
+        <div className="border-row">
+
+        <div/>
+
+
+      </div>
     );
+  }
 
 }
 
-export default Board ;
+export default Board;
