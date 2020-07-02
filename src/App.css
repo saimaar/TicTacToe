@@ -17,3 +17,19 @@
   height: 80px;
   display: inline-block;
 }
+
+.square:focus{
+  outline: none;
+}
+
+
+.board-row:after{
+  clear: both;
+  content: "";
+  display: table;
+
+}
+
+.game{
+  
+}
