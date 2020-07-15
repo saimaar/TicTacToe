@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Square></Square>
+        <Game/>
       </header>
     </div>
   );
