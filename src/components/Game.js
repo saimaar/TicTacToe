@@ -16,7 +16,7 @@ class Game extends Component {
     return (
       <div className = "game">
         <div className ="game-board">
-          <Board/>
+          <Board onClick={(i)=>this.onClick(i)}/>
         </div>
       </div>
     );
